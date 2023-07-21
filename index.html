@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover</title>
+    <!-- cdn for bootstarp  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- Font-awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google fonts cdn -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&display=swap"
+        rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet" />
+    <!-- animate.css -->
+    <!-- External css file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="body-cont" id="bodyContainer">
+        <!-- Code for navbar start -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style="text-transform: uppercase">
+            <div class="container" style="overflow: visible; position: relative">
+                <a class="navbar-brand " href="/">
+                    <img src="https://www.freeskout.com/img/freeskout.png" alt="" class="logo" /></a>
+                <div id="togglers">
+                    <div id="hamNavToggler">
+                        <i id="nav-ham-icon-ham" class="fa-solid fa-bars"></i>
+                    </div>
+                    <div id="crossNavToggler">
+                        <i id="nav-ham-icon-cross" class="fa-solid fa-xmark"></i>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse text-left my-auto" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto accordion" id="navAccordian">
+                        <li class="nav-item" id="solutions-nav">
+                            <a class="nav-link " data-target="#solutions-collapse" aria-expanded="true"
+                                aria-controls="solutions-collapse" href="brands">Brands</a>
+                        </li>
+                        <li class="nav-item" id="resources-nav">
+                            <a class="nav-link " data-target="#resources-collapse" aria-expanded="true"
+                                aria-controls="resources-collapse" href="influencers/">Influencers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/brands#slide-section" class="nav-link">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Blogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="navDrawer" class="starsMov slideStyleOut">
+                    <div id="navDiv">
+                        <a href="../" class="HamNavA">
+                            <div class="hamNavItem">
+                                <div class="hamNavItemIcon"><i class="fa-solid fa-house"></i></div>
+                                <p class="hamNavItemName">HOME</p>
+                            </div>
+                        </a>
+                        <a href="brands/" class="HamNavA">
+                            <div class="hamNavItem">
+                                <div class="hamNavItemIcon"><i class="fa-solid fa-briefcase"></i></div>
+                                <p class="hamNavItemName">BRANDS</p>
+                            </div>
+                        </a>
+                        <a href="influencers/" class="HamNavA">
+                            <div class="hamNavItem">
+                                <div class="hamNavItemIcon"><i class="fa-solid fa-user"></i></i></div>
+                                <p class="hamNavItemName">INFLUENCERS</p>
+                            </div>
+                        </a>
+                        <a href="/brands#slide-section" class="HamNavA">
+                            <div class="hamNavItem">
+                                <div class="hamNavItemIcon"><b>₹ </b></i></div>
+                                <p class="hamNavItemName">Pricing</p>
+                            </div>
+                        </a>
+                        <a href="#blogScroll" class="HamNavA">
+                            <div class="hamNavItem">
+                                <div class="hamNavItemIcon"><i class="fa-brands fa-blogger-b"></i></div>
+                                <p class="hamNavItemName">BLOGS</p>
+                            </div>
+                        </a>
+                        <a href="#Contact" class="HamNavA">
+                            <div class="hamNavItem">
+                                <div class="hamNavItemIcon"><i class="fa-solid fa-phone"></i></div>
+                                <p class="hamNavItemName">CONTACT</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Code for navbar end -->
+        <!-- Code for main content start -->
+        <header class="main-content" id="main-content">
+            <div id="stars"></div>
+            <div id="stars2"></div>
+            <div id="stars3"></div>
+            <div class="container" style="height: 100vh; overflow: hidden;">
+                <div class="row banner justify-content-center align-items-center">
+                    <div class="col-lg-6 my-auto banner-text">
+                        <div class="head-text mx-auto">
+                            <h1 class="mt-0 mb-4 bounceInLeft">
+                                Discover. Connect. Collaborate.
+                            </h1>
+                            <h3 class="bounceInLeft">
+                                An ecosystem for Social media Influencers and Brands.
+                            </h3>
+                            <div class="buttons">
+                                <div class="influencer-button fadeInUp">
+                                    <a href="#" class="button">
+                                        <span>I'm an influencer</span>
+                                    </a>
+                                </div>
+                                <div class="brand-button fadeInUp">
+                                    <a href="#" class="button">
+                                        <span>I'm Brand</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 my-auto banner-image fadeIn">
+                        <img class="animate-zoom" src="https://www.freeskout.com/img/top-influencer-profiles/top-3.png"
+                            alt="mobile_img">
+                    </div>
+                </div>
+                <div class="waveWrapper waveAnimation">
+                    <div class="waveWrapperInner bgTop">
+                        <div class="wave waveTop"
+                            style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')">
+                        </div>
+                    </div>
+                    <div class="waveWrapperInner bgMiddle">
+                        <div class="wave waveMiddle"
+                            style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')">
+                        </div>
+                    </div>
+                    <div class="waveWrapperInner bgBottom">
+                        <div class="wave waveBottom"
+                            style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+</body>
+
+</html>
